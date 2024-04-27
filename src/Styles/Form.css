@@ -1,0 +1,12 @@
+input{
+    height: 30px;
+    width: 16rem;
+    border-radius: 5px;
+    outline-color: #8363ff;
+    border: 2px solid #3907ff8e;
+}
+.form{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+}
