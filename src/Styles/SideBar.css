@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: #a18affd0;
+  height: 91vh;
+  width: 65%;
+  border: 8px solid #a18aff;
+  border-radius: 15px;
+}
+.sidebar {
+  width: 28%;
+  background-color: #fff;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 6px;
+  padding: 10px;
+}
+.profile{
+    border-radius: 50%;
+    border: 2px solid #a18aff;
+}
+.profileName{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.profileName span:nth-child(2){
+  color: #8363ff;
+}
+.Allprofile{
+  display: flex;
+  background-color: #a18aff3a;
+  align-items: center;
+  padding: 8px;
+  border-radius: 4px;
+}
+.title{
+  display: flex;
+  align-items: center;
+  background-color: #a18aff3a;
+  border-radius: 3px;
+  font-size: 1rem;
+  color: #717082;
+}
+.filter{
+  padding-top: 5px;
+  color: #717082;
+}
+.completed-label{
+  color: #95fd80;
+}
+.pending-label{
+  color: #ffe222;
+}
+Badge{
+  color: #fdec80;
+}
+.items{
+  padding-top: 5px;
+}
+.item{
+  display: flex;
+  align-items: center;
+  background-color: #a18aff3a;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.item:hover{
+  background-color: #a18aff;
+  color: #ffff;
+}
+.all-label{
+  background-color: #fff;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+.new-task-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8363ff;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}
