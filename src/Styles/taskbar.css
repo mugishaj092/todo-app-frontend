@@ -1,0 +1,36 @@
+.task-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #ececec;
+    border-radius: 5px;
+    border: 1px solid #8263ffa1;
+    padding-left: 2px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 72%;
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 5px;
+    color: #717082;
+    font-size: 1rem;
+    font-weight: 650;
+}
+.action{
+    width: 28%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.action .edit-icon{
+    padding: 5px;
+    color: #8363ff;
+}
+.action .delete-icon{
+    padding: 5px;
+    color: #ff638a;
+}

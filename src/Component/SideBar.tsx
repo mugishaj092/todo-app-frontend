@@ -3,9 +3,7 @@ import "../Styles/SideBar.css";
 import { Outlet } from "react-router-dom";
 import profile from "../Assets/profile.JPG";
 import { ListFilter,CopyPlus } from "lucide-react";
-import CompletedLabel from "./CompletedLabel";
 import PendingLabel from "./pendingLabel";
-import AllLabel from "./AllLabel";
 
 
 
@@ -43,9 +41,8 @@ function SideBar() {
               <div className="filterr">Filter</div>
             </div>
             <div className="items">
-            <div className="item"><AllLabel />All</div>
-              <div className="item"><CompletedLabel />Completed</div>
-              <div className="item"><PendingLabel /> Pending</div>
+              <div className="item"><PendingLabel status="Completed"/> Completed</div>
+              <div className="item"><PendingLabel status="pending"/> Pending</div>
             </div>
           </div>
           <button className="new-task-btn"><CopyPlus /> New Task</button>
