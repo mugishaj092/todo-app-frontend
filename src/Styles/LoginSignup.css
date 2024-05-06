@@ -1,0 +1,94 @@
+.container.con{
+    width: 33%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #a18aff;
+}
+.cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.login{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.login .header h3{
+    color: rgb(34, 57, 86);
+    font-size: 1.7rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+.login .header p{
+    margin-top: 0;
+    text-align: center;
+    color: #717082;
+    font-size: 1.2rem;
+}
+.input-box label{
+    color: #717082;
+    font-weight: 650;
+}
+.input-box .input{
+    display: flex;    
+    border: 2px solid #a18aff;
+    align-items: center ;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.input-box .input input{
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    color: #717082;
+    font-weight: 600;
+}
+.input-box .input .Mails{
+    color: #717082;
+    padding: 0 10px;
+}
+.Login-form button{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #a18aff;
+    font-size: 1rem;
+    margin: 20px 0;
+}
+.Login-form button:hover{
+    background-color: #fff;
+    color: #a18aff;
+    border: 2px solid #7e5efa;
+}
+.Login-form .or{
+    width: 100%;
+    text-align: center;
+    color: #717082;
+}
+.Login-form .auth{
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.Login-form .auth .google-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a18aff79;
+    width: 48%;
+    border-radius: 10px;
+}
+.Login-form p span{
+    color: #8a6efa;
+    cursor: pointer;
+    font-weight: 650;
+}

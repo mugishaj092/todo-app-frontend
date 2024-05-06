@@ -4,11 +4,11 @@ import SideBar from "./Component/SideBar";
 import LoginSignup from "./Component/LoginSignup";
 
 function App() {
-  const isLogin=true
   return (
     <BrowserRouter>
       <Routes>
-        <Route element={isLogin?<SideBar />:<LoginSignup />}>
+      <Route path="/login" element={<LoginSignup />} />
+        <Route element={<SideBar />}>
           <Route path="/" element={<HomePage />} />
         </Route>
       </Routes>
