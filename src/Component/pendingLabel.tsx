@@ -1,24 +1,18 @@
 import React from "react";
-import PropTypes from "prop-types";
-import "../Styles/SideBar.css";
 import { Badge, BadgeCheck } from "lucide-react";
 
 interface PendingLabelProps {
-  status: string;
+  status: boolean;
 }
 
 const PendingLabel: React.FC<PendingLabelProps> = (props) => {
-  const badgeIcon = props.status === "pending" ? <Badge /> : <BadgeCheck />;
+  const badgeIcon = props.status ? <BadgeCheck /> : <Badge />;
 
   return (
-    <div className={`${props.status}-label`}>
+    <div className={`${props.status ? "completed" : "pending"}-label`}>
       {badgeIcon}
     </div>
   );
-}
-
-PendingLabel.propTypes = {
-  status: PropTypes.oneOf(["pending", "completed"]).isRequired,
 };
 
 export default PendingLabel;

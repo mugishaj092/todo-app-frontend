@@ -41,8 +41,8 @@ function SideBar() {
               <div className="filterr">Filter</div>
             </div>
             <div className="items">
-              <div className="item"><PendingLabel status="Completed"/> Completed</div>
-              <div className="item"><PendingLabel status="pending"/> Pending</div>
+              <div className="item"><PendingLabel status={true}/> Completed</div>
+              <div className="item"><PendingLabel status={false}/> Pending</div>
             </div>
           </div>
           <button className="new-task-btn"><CopyPlus /> New Task</button>
